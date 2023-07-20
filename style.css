@@ -161,6 +161,13 @@ h1 {
     ABOUT SECTION
 */
 
+.curve {
+    background-image: url(images/bg-curve-mobile.svg);
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+}
+
 .about {
     background-color: var(--clr-Light-Grayish-Blue);
     display: flex;
@@ -329,6 +336,7 @@ button span {
 
 
 .form2 {
+    min-width: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -510,13 +518,17 @@ li:hover {
     }
     .form1 {
         flex-direction: row;
-        justify-content: center;
+        width: 100%;
     }
     #email {
-        width: 300px;
+        width: 20rem;
     }
     #submit {
-        width: 200px;
+        width: 15rem;
+    }
+
+    .curve {
+        background-image: url(images/bg-curve-desktop.svg);
     }
 
     .about {
@@ -557,26 +569,25 @@ li:hover {
         flex-direction: row;
         justify-content: space-between;
         padding: 5rem;
+        text-align: start;
     }
 
     .early-access .text {
         width: 40%;
-        text-align: start;
     }
 
     .early-access .form2 {
-        align-items: flex-start;
         width: 40%;
     }
 
     #email2 {
-        width: 400px;
+        width: 100%;
         height: 2.5rem;
         
     }
 
     #submit2 {
-        width: 150px;
+        width: 40%;
         height: 2.5rem;
     }
 

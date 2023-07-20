@@ -8,5 +8,5 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-solution-oXi-VsTqMO
+- Live Site URL: https://unkookerinho.github.io/Fylo-landing-page-with-two-column-layout-solution/
