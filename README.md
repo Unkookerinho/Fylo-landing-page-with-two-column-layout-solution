@@ -4,7 +4,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Screenshot
 
-<img src="images/screenshot.png">
+<img src="images/screenshot.webp">
 
 ### Links
 
