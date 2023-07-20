@@ -172,8 +172,8 @@ h1 {
     background-color: var(--clr-Light-Grayish-Blue);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
 
     padding: 0 1.2rem;
     padding-bottom: 6rem;
@@ -479,7 +479,7 @@ li:hover {
     text-align: center;
 }
 .attribution p {
-    color: var(--clr-Moderate-Cyan);
+    color: white;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -535,7 +535,7 @@ li:hover {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-        padding: 3rem 5rem;
+        padding: 5rem;
         padding-bottom: 10rem;
     }
     .illustration {
