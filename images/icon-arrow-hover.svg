@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <circle cx="6" cy="6" id="b" r="6"/>
+  <filter filterUnits="objectBoundingBox" height="150%" id="a" width="150%" x="-25%" y="-25%">
+   <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0"/>
+  </filter>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g fill="none" fill-rule="evenodd" id="svg_1">
+   <g id="svg_2">
+    <use fill="#5ad8c3" filter="url(#a)" id="svg_3" x="2" xlink:href="#b" y="2"/>
+    <use fill="#5ad8c3" id="svg_4" x="2" xlink:href="#b" y="2"/>
+   </g>
+   <path d="m8.58,6l-0.36,0.35l1.45,1.4l-4.34,0l0,0.5l4.34,0l-1.45,1.4l0.36,0.35l2.08,-2l-2.08,-2z" fill="#FFF" id="svg_5" transform="matrix(1 0 0 1 0 0)"/>
+  </g>
+ </g>
+</svg>
